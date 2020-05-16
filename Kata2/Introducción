@@ -1,0 +1,46 @@
+Python es un lenguaje de programación interpretado
+    compilador --> traductor (C++)
+    intérprete --> (Python)
+
+Elemento básicos
+    1- Variables
+    2- Funciones
+    3- Estructuras de control condicionales e interativas
+
+1- Variable
+    Valor que cambia durante la ejecución del cádigo.
+      Ej.
+        mi_edad = 28
+        mi_nombre = "Francisco José"
+        soy_humano = True
+        mi_edad_mental = mi_edad - 12
+
+2- Funciones
+    Permiten aádir capas de abstracción
+    Permiten reutilizar código
+    Primitivas y personalizadas
+    Aumentan la legibilidad
+      Ej.
+        print("Hola, mundo!")
+        resultado = calcula_raiz_cuadrada(9)
+      Ej2.(Elevar nº al 2)
+        def cuadrado(x):
+            return x * x
+        cuadrado_de_dos = cuadrado(2)
+
+3- Estructuras de control
+ Condicionales
+    Si condición es CIERTA
+    ENTONCES haz_tarea
+    SI NO haz_otra_tarea
+     Ej.
+        if condicion == True:
+            haz_tarea()
+        else:
+            haz_otra_tarea()
+ Interativas
+    PARA CADA valor de 1,2,3,4
+    IMPRIME valor
+     Ej.
+        for valor in (1,2,3,4):
+            print(valor)
