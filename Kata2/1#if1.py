@@ -7,7 +7,7 @@ por el usuario coincide con la guardada en la variable sin tener en cuenta mayú
 password = 'contraseña'
 
 password_del_usuario = input('Introduzca la contraseña: ')
-password_del_usuario = password_del_usuario.lower() #convierte cadena en mminúscula
+password_del_usuario = password_del_usuario.lower() #convierte cadena en minúscula
 
 if password == password_del_usuario:
     print('El password es correcto.')
